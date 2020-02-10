@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14a1498d-989d-4bfc-8226-5a1a84b53b32" name="Default Changelist" comment="" />
+    <list default="true" id="14a1498d-989d-4bfc-8226-5a1a84b53b32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gmall-logger/src/main/java/com/atguigu/dw/gmalllogger/controller/LoggerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-logger/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-logger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-logger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/util/LogUploader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/util/LogUploader.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-mock/target/classes/com/atguigu/dw/gmall/mock/JsonMock$$anonfun$generateLog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-mock/target/classes/com/atguigu/dw/gmall/mock/JsonMock$$anonfun$generateLog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-mock/target/classes/com/atguigu/dw/gmall/mock/JsonMock$.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-mock/target/classes/com/atguigu/dw/gmall/mock/JsonMock$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-mock/target/classes/com/atguigu/dw/gmall/mock/util/LogUploader$.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-mock/target/classes/com/atguigu/dw/gmall/mock/util/LogUploader$.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/gmall-logger/target/" />
@@ -15,77 +24,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gmall-logger/src/main/java/com/atguigu/dw/gmalllogger/GmallLoggerApplication.java">
+        <entry file="file://$PROJECT_DIR$/gmall-logger/src/main/java/com/atguigu/dw/gmalllogger/controller/LoggerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="320">
+              <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
               <folding>
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/util/RandomNumUtil.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <element signature="e#40#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/util/RandomDate.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/util/RadomOptions.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/util/LogUploader.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="e#41#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/JsonMock.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="121" column="40" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="40" />
-              <folding>
-                <element signature="e#36#57#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gmall-common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="147">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -103,22 +50,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gmall-logger/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="173">
+              <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-mock/pom.xml">
+        <entry file="file://$PROJECT_DIR$/gmall-logger/src/main/java/com/atguigu/dw/gmalllogger/GmallLoggerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="147">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding>
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -132,10 +90,13 @@
         <option value="$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/util/RandomNumUtil.scala" />
         <option value="$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/util/RandomDate.scala" />
         <option value="$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/util/RadomOptions.scala" />
-        <option value="$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/util/LogUploader.scala" />
         <option value="$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/JsonMock.scala" />
-        <option value="$PROJECT_DIR$/gmall-logger/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-logger/src/main/java/com/atguigu/dw/gmalllogger/GmallLoggerApplication.java" />
+        <option value="$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/util/LogUploader.scala" />
+        <option value="$PROJECT_DIR$/gmall-logger/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/gmall-logger/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-logger/src/main/java/com/atguigu/dw/gmalllogger/controller/LoggerController.java" />
       </list>
     </option>
   </component>
@@ -158,7 +119,9 @@
     <option name="width" value="1350" />
     <option name="height" value="690" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -261,7 +224,152 @@
               <item name="atguigu" type="462c0819:PsiDirectoryNode" />
               <item name="dw" type="462c0819:PsiDirectoryNode" />
               <item name="gmalllogger" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="dw" type="462c0819:PsiDirectoryNode" />
+              <item name="gmalllogger" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="LoggerController" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="dw" type="462c0819:PsiDirectoryNode" />
+              <item name="gmalllogger" type="462c0819:PsiDirectoryNode" />
               <item name="GmallLoggerApplication" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="dw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="dw" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="dw" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="dw" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="dw" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="LogUploader$" type="ce8f04f3:TypeDefinitionNode" />
             </path>
           </expand>
           <select />
@@ -274,11 +382,13 @@
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581352935047" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581353993533" />
     <property name="last_opened_file_path" value="E:/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -296,7 +406,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JsonMock">
+  <component name="RunManager" selected="Spring Boot.GmallLoggerApplication">
     <configuration name="JsonMock" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.dw.gmall.mock.JsonMock" />
       <module name="gmall-mock" />
@@ -333,12 +443,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581352152962</updated>
-      <workItem from="1581352154416" duration="781000" />
+      <workItem from="1581352154416" duration="1838000" />
     </task>
+    <task id="LOCAL-00001" summary="hello">
+      <created>1581352962486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581352962486</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="781000" />
+    <option name="totallyTimeSpent" value="1838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -382,6 +500,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hello" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gmall-mock/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -414,16 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/util/LogUploader.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#41#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/JsonMock.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -434,34 +546,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-common/pom.xml">
+    <entry file="file://$PROJECT_DIR$/gmall-logger/src/main/java/com/atguigu/dw/gmalllogger/controller/LoggerController.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-logger/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="42">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="-2394">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/util/LogUploader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="e#41#68#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gmall-logger/src/main/java/com/atguigu/dw/gmalllogger/GmallLoggerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding>
             <element signature="e#263#264#0" expanded="true" />
             <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-logger/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-logger/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-logger/src/main/java/com/atguigu/dw/gmalllogger/controller/LoggerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
           </folding>
         </state>
       </provider>
