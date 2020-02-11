@@ -1,43 +1,62 @@
 package com.atguigu.dw.gmalllogger.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.atguigu.dw.gmall.common.constant.GmallConstant;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-//@Controller
-//@ResponseBody
 public class LoggerController {
-    @GetMapping("/log")
+    @PostMapping("/log")
     public String doLog(@RequestParam("log") String log){
-        System.out.println("log");
-        return "success";
+        //1.添加时间戳
+        log = addTS(log);
+
+        //2.日志落盘
+        save2file(log);
+
+        //3.把日志写入到kafka
+        send2kafka(log);
+
+        return "ok";
     }
 
-    //1.添加时间戳
+
     /**
      * 添加时间戳
      * @param logObj
      * @return
      */
-    public JSONObject addTS(JSONObject logObj){
-        logObj.put("ts", System.currentTimeMillis());
-        return logObj;
+
+    private String addTS(String log){
+        JSONObject jsonObj = JSON.parseObject(log);
+        jsonObj.put("ts",System.currentTimeMillis());
+        return jsonObj.toJSONString();
     }
 
-    //2.日志落盘
-    // 初始化 Logger 对象
-    private final Logger logger = LoggerFactory.getLogger(LoggerController.class);
-    /**
-     * 日志落盘
-     * 使用 log4j
-     * @param logObj
-     */
-    public void saveLog(JSONObject logObj) {
-        logger.info(logObj.toJSONString());
+    //创建一个可以写入日志的logger对象
+    Logger logger = LoggerFactory.getLogger(LoggerController.class);
+    //把文件保存到日志中
+    private void save2file(String log){
+        logger.info(log);
     }
 
 
+
+    //对象的自动注入
+    @Autowired
+    private KafkaTemplate<String,String> kafka;
+    private void send2kafka(String log){
+        String topic= GmallConstant.TOPIC_STARTUP;
+        if(log.contains("event")){
+            topic=GmallConstant.TOPIC_EVENT;
+        }
+        kafka.send(topic,log);
+
+    }
 }
