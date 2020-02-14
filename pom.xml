@@ -3,17 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <packaging>pom</packaging>
-    <modules>
-        <module>gmall-common</module>
-        <module>gmall-mock</module>
-        <module>gmall-logger</module>
-        <module>gmall-realtime</module>
-        <module>gmall-publisher</module>
-    </modules>
-    <!-- 由于子模块会用到 springboot, 而 springboot 必须使用这个父项目: spring-boot-starter-parent,
-     所以让我们的父项目使用spring-boot-starter-parent,
-     spring-boot-starter-parent 会成为我们 springboot 模块的爷爷了 -->
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -23,7 +13,23 @@
 
     <groupId>com.atguigu.dw</groupId>
     <artifactId>mygmall</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>gmall-common</module>
+        <module>gmall-mock</module>
+        <module>gmall-logger</module>
+        <module>gmall-realtime</module>
+        <module>gmall-publisher</module>
+        <module>gmall-publisher2</module>
+        <module>gmall-canal</module>
+    </modules>
+    <!-- 由于子模块会用到 springboot, 而 springboot 必须使用这个父项目: spring-boot-starter-parent,
+     所以让我们的父项目使用spring-boot-starter-parent,
+     spring-boot-starter-parent 会成为我们 springboot 模块的爷爷了 -->
+
+
+
 
     <properties>
         <spark.version>2.1.1</spark.version>
@@ -116,6 +122,7 @@
                 <artifactId>spark-streaming-kafka-0-8_2.11</artifactId>
                 <version>${spark.version}</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
     <build>

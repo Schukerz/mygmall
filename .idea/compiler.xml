@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dw-chart" />
+        <module name="gmall-canal" />
         <module name="gmall-common" />
         <module name="gmall-logger" />
         <module name="gmall-mock" />
         <module name="gmall-publisher" />
+        <module name="gmall-publisher2" />
         <module name="gmall-realtime" />
       </profile>
     </annotationProcessing>
@@ -21,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="gmall-logger" options="" />
       <module name="gmall-publisher" options="" />
+      <module name="gmall-publisher2" options="" />
     </option>
   </component>
 </project>
