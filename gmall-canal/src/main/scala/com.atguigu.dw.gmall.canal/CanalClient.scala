@@ -43,25 +43,27 @@ object CanalClient {
 
     //订阅数据,获取gmall这个数据库下的所有请求
     connector.subscribe("gmall.*")
+    print("subscribe")
+    print(connector)
 
     //3.获取数据
     import scala.collection.JavaConversions._
     while(true){
-    val message: Message = connector.get(1)//表示最多有多少条语句发生了变化
-    val entries: util.List[CanalEntry.Entry] = if(message == null) message.getEntries else null
-      if((entries != null) && (!entries.isEmpty)){
-      for(entry <- entries){
-        if(entry!=null && entry.getEntryType==EntryType.ROWDATA){
-          val value: ByteString = entry.getStoreValue
-          val rowChange: RowChange = RowChange.parseFrom(value)
-          val datasList: util.List[RowData] = rowChange.getRowDatasList
-          CanalHandler.handle(entry.getHeader.getTableName,datasList,rowChange.getEventType)
+    val message: Message = connector.get(100)//表示最多有多少条语句发生了变化
+    val entries: util.List[CanalEntry.Entry] = if(message != null) message.getEntries else null
+      if(entries != null && !entries.isEmpty){
+        for(entry <- entries){
+          if(entry!=null &&  entry.getEntryType==EntryType.ROWDATA){
+            val value: ByteString = entry.getStoreValue
+            val rowChange: RowChange = RowChange.parseFrom(value)
+            val datasList: util.List[RowData] = rowChange.getRowDatasList
+            CanalHandler.handle(entry.getHeader.getTableName,datasList,rowChange.getEventType)
 
-        }else{
-          print("没有拉取到数据,2s后继续...")
-          Thread.sleep(2000)
+          }
         }
-      }
+      }else{
+        println("没有拉取到数据,2s后继续...")
+        Thread.sleep(2000)
       }
 
     }

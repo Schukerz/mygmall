@@ -1,9 +1,11 @@
 package com.atguigu.dw.gmall.gmallpublisher2.service;
 
 import com.atguigu.dw.gmall.gmallpublisher2.mapper.DauMapper;
+import com.atguigu.dw.gmall.gmallpublisher2.mapper.OrderMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -37,6 +39,26 @@ public class PublisherServiceImp implements PublisherService {
             result.put(loghour,count);
         }
 
+        return result;
+    }
+
+    @Autowired
+    private OrderMapper orderMapper;
+    @Override
+    public Double getTotalAmount(String date) {
+        return orderMapper.getTotalAmount(date);
+    }
+
+    @Override
+    public Map<String, Double> getHourAmount(String date) {
+        List<Map> hourMapList = orderMapper.getHourAmount(date);
+        HashMap<String,Double> result = new HashMap<>();
+        for (Map map :hourMapList) {
+
+            String key = (String) map.get("CREATE_HOUR");
+            Double value = ((BigDecimal)map.get("SUM")).doubleValue();
+            result.put(key,value);
+        }
         return result;
     }
 

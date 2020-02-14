@@ -31,7 +31,7 @@ public class PublisherController {
     public PublisherService service ;
 
     @GetMapping("/realtime-total")
-    public String getDau(@RequestParam("date") String date){
+    public String getAmount(@RequestParam("date") String date){
         List<Map<String,String>> result = new ArrayList<>();
         HashMap<String,String> map1 = new HashMap<>();
         map1.put("id","dau");
@@ -44,6 +44,13 @@ public class PublisherController {
         map2.put("name","新增设备");
         map2.put("value","233");
         result.add(map2);
+
+        //{"id":"order_amount","name":"新增交易额","value":1000.2 }]
+        HashMap<String,String> map3 = new HashMap<>();
+        map3.put("id","order_amount");
+        map3.put("name","新增交易额");
+        map3.put("value",service.getTotalAmount(date)+"");
+        result.add(map3);
 
        return JSON.toJSONString(result);
 //        return "ok";
@@ -69,8 +76,16 @@ public class PublisherController {
             result.put("yesterday",yesterday);
             return JSON.toJSONString(result);
 
-        }else if("".equals(id)){
+            //{"yesterday":{"11":383,"12":123,"17":88,"19":200 },
+            //"today":{"12":38,"13":1233,"17":123,"19":688 }}
+        }else if("order_amount".equals(id)){
+            Map<String, Double> today = service.getHourAmount(date);
+            Map<String, Double> yesterday = service.getHourAmount(getYesterday(date));
 
+            HashMap<String,Map<String,Double>> result = new HashMap<>();
+            result.put("today",today);
+            result.put("yesterday",yesterday);
+            return JSON.toJSONString(result);
         }
         return null;
     }

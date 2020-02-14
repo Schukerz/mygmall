@@ -20,4 +20,8 @@ public interface PublisherService {
         12点 :120
      */
     Map<String,Long> getHourDau(String date );
+
+    Double getTotalAmount(String date);
+    Map<String,Double> getHourAmount(String date);
+
 }
