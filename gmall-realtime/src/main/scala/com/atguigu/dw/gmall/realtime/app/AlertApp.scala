@@ -53,8 +53,12 @@ object AlertApp {
         (uidSet.size() >= 3 && !isClickEvent,
           AlertInfo(mid, uidSet, itemSet, eventList, System.currentTimeMillis()))
     }
-    alertInfoStream.filter(_._1).foreachRDD(rdd=>{
-      //rdd.saveToES
+    import com.atguigu.dw.gmall.realtime.util.EsUtil._
+    alertInfoStream
+      .filter(_._1)
+      .map(_._2)
+      .foreachRDD(rdd=>{
+      rdd.saveToES("gmall_coupon_alert")
     })
 
 
