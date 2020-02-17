@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14a1498d-989d-4bfc-8226-5a1a84b53b32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher2/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/app/OrderApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/bean/OrderInfo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/app/AlertApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/bean/AlertInfo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/bean/EventLog.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-canal/src/main/scala/com.atguigu.dw.gmall.canal/CanalClient.scala" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-canal/src/main/scala/com.atguigu.dw.gmall.canal/CanalClient.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-canal/src/main/scala/com.atguigu.dw.gmall.canal/CanalHandler.scala" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-canal/src/main/scala/com.atguigu.dw.gmall.canal/CanalHandler.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/controller/PublisherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/controller/PublisherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/service/PublisherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/service/PublisherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/service/PublisherServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/service/PublisherServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/JsonMock.scala" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/JsonMock.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-mock/target/classes/com/atguigu/dw/gmall/mock/JsonMock$.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-mock/target/classes/com/atguigu/dw/gmall/mock/JsonMock$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,73 +28,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/mapper/OrderMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/service/PublisherServiceImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1199#1200#0" expanded="true" />
-                <element signature="e#1226#1227#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/service/PublisherService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/resources/mapper/OrderMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="118" selection-start-line="7" selection-start-column="118" selection-end-line="7" selection-end-column="118" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/resources/mapper/DauMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/controller/PublisherController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-583">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2480#2481#0" expanded="true" />
-                <element signature="e#2548#2549#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dw-chart/src/main/java/com/demo/DemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -108,9 +37,78 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/GmallPublisher2Application.java">
+        <entry file="file://$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/bean/EventLog.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding>
+                <element signature="e#44#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/bean/AlertInfo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/app/AlertApp.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="e#43#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/JsonMock.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+              <folding>
+                <element signature="e#36#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/util/MyKafkaUtil.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding>
+                <element signature="e#44#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/app/DauApp.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="81" column="2" selection-start-line="81" selection-start-column="2" selection-end-line="81" selection-end-column="2" />
+              <folding>
+                <element signature="e#43#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/GmallPublisher2Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
               <caret line="8" column="39" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -200,7 +198,6 @@
         <option value="$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/app/DauApp.scala" />
         <option value="$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/mapper/DauMapper.java" />
         <option value="$PROJECT_DIR$/gmall-publisher2/src/main/resources/mapper/DauMapper.xml" />
-        <option value="$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/JsonMock.scala" />
         <option value="$PROJECT_DIR$/gmall-canal/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-common/src/main/java/com/atguigu/dw/gmall/common/constant/GmallConstant.java" />
         <option value="$PROJECT_DIR$/gmall-canal/src/main/scala/com.atguigu.dw.gmall.canal/CanalClient.scala" />
@@ -213,6 +210,10 @@
         <option value="$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/controller/PublisherController.java" />
         <option value="$PROJECT_DIR$/gmall-publisher2/src/main/resources/mapper/OrderMapper.xml" />
         <option value="$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/service/PublisherServiceImp.java" />
+        <option value="$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/bean/EventLog.scala" />
+        <option value="$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/bean/AlertInfo.scala" />
+        <option value="$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/JsonMock.scala" />
+        <option value="$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/app/AlertApp.scala" />
       </list>
     </option>
   </component>
@@ -287,6 +288,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,47 +325,6 @@
             <path>
               <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="dw-chart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="dw-chart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="dw-chart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="dw-chart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="DemoApplication" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
               <item name="gmall-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -390,86 +351,47 @@
             <path>
               <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-common" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-common" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dw" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-common" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dw" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-common" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dw" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-common" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-mock" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dw" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dw" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
-              <item name="GmallConstant" type="1a9f42e2:ClassTreeNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
+              <item name="JsonMock$" type="ce8f04f3:TypeDefinitionNode" />
             </path>
             <path>
               <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
@@ -496,177 +418,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-publisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-publisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-publisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-publisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dw" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-publisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dw" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmallpublisher2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-publisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dw" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmallpublisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-publisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dw" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmallpublisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="PublisherController" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-publisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dw" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmallpublisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-publisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dw" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmallpublisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="OrderMapper" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-publisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dw" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmallpublisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-publisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dw" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmallpublisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="PublisherService" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-publisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dw" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmallpublisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="PublisherServiceImp" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-publisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dw" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmallpublisher2" type="462c0819:PsiDirectoryNode" />
-              <item name="GmallPublisher2Application" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
@@ -684,6 +435,104 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-realtime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="realtime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="AlertApp$" type="ce8f04f3:TypeDefinitionNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="DauApp$" type="ce8f04f3:TypeDefinitionNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="MyKafkaUtil$" type="ce8f04f3:TypeDefinitionNode" />
             </path>
             <path>
               <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
@@ -729,63 +578,6 @@
             <path>
               <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka-clients:0.8.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-0.8.2.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka-clients:0.8.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-0.8.2.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka-clients:0.8.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-0.8.2.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka-clients:0.8.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-0.8.2.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="clients" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka-clients:0.8.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-0.8.2.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="clients" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka-clients:0.8.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-0.8.2.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="clients" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="ConsumerConfig" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Maven: org.apache.kafka:kafka-clients:0.11.0.0" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
@@ -805,57 +597,11 @@
               <item name="Maven: org.apache.phoenix:phoenix-spark:4.14.2-HBase-1.3" type="70bed36:NamedLibraryElementNode" />
               <item name="phoenix-spark-4.14.2-HBase-1.3.jar" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.phoenix:phoenix-spark:4.14.2-HBase-1.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="phoenix-spark-4.14.2-HBase-1.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.phoenix:phoenix-spark:4.14.2-HBase-1.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="phoenix-spark-4.14.2-HBase-1.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.phoenix:phoenix-spark:4.14.2-HBase-1.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="phoenix-spark-4.14.2-HBase-1.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.phoenix:phoenix-spark:4.14.2-HBase-1.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="phoenix-spark-4.14.2-HBase-1.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.phoenix:phoenix-spark:4.14.2-HBase-1.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="phoenix-spark-4.14.2-HBase-1.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="ProductRDDFunctions" type="ce8f04f3:TypeDefinitionNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -872,10 +618,11 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581692436019" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581861194065" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/dw-chart" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -900,7 +647,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JsonMock">
+  <component name="RunManager" selected="Application.AlertApp">
+    <configuration name="AlertApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.dw.gmall.realtime.app.AlertApp" />
+      <module name="gmall-realtime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.dw.gmall.realtime.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CanalClient" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.dw.gmall.canal.CanalClient" />
       <module name="gmall-canal" />
@@ -940,19 +700,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderApp" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.dw.gmall.realtime.app.OrderApp" />
-      <module name="gmall-realtime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.dw.gmall.realtime.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="dw-chart" />
       <extension name="coverage">
@@ -983,10 +730,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.JsonMock" />
+        <item itemvalue="Application.AlertApp" />
         <item itemvalue="Application.DauApp" />
         <item itemvalue="Application.CanalClient" />
         <item itemvalue="Spring Boot.DemoApplication" />
-        <item itemvalue="Application.OrderApp" />
       </list>
     </recent_temporary>
   </component>
@@ -1015,7 +762,9 @@
       <workItem from="1581592323699" duration="5805000" />
       <workItem from="1581661571320" duration="11193000" />
       <workItem from="1581682387654" duration="6207000" />
-      <workItem from="1581689231078" duration="3170000" />
+      <workItem from="1581689231078" duration="3673000" />
+      <workItem from="1581736326393" duration="2980000" />
+      <workItem from="1581861070274" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1581352962486</created>
@@ -1059,17 +808,23 @@
       <option name="project" value="LOCAL" />
       <updated>1581673198169</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hello">
+      <created>1581692500716</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581692500716</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78439000" />
+    <option name="totallyTimeSpent" value="82646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30227882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31032172" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1079,7 +834,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43548387" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43548387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1114,30 +869,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="hello" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gmall-publisher/src/main/java/com/atguigu/dw/gmallpublisher/mapper/DauMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="44" selection-start-column="8" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-publisher/src/main/resources/mapper/DauMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-realtime/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.20.RELEASE/spring-boot-1.5.20.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -1250,16 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/app/DauApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="81" column="2" selection-start-line="81" selection-start-column="2" selection-end-line="81" selection-end-column="2" />
-          <folding>
-            <element signature="e#43#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/util/LogUploader.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -1290,16 +1011,6 @@
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding>
             <element signature="e#40#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/JsonMock.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-          <folding>
-            <element signature="e#36#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1432,6 +1143,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/bean/OrderInfo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/mapper/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/service/PublisherServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/service/PublisherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/resources/mapper/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="118" selection-start-line="7" selection-start-column="118" selection-end-line="7" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/resources/mapper/DauMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/controller/PublisherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw-chart/src/main/java/com/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/bean/EventLog.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="e#44#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/bean/AlertInfo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/app/AlertApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#43#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-mock/src/main/scala/com/atguigu/dw/gmall/mock/JsonMock.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+          <folding>
+            <element signature="e#36#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/util/MyKafkaUtil.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1442,10 +1255,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/bean/OrderInfo.scala">
+    <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/GmallPublisher2Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="126">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1463,77 +1281,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/resources/mapper/DauMapper.xml">
+    <entry file="file://$PROJECT_DIR$/gmall-realtime/src/main/scala/com/atguigu/dw/gmall/realtime/app/DauApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/service/PublisherService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/GmallPublisher2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="588">
+          <caret line="81" column="2" selection-start-line="81" selection-start-column="2" selection-end-line="81" selection-end-column="2" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#43#76#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/mapper/OrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/resources/mapper/OrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="118" selection-start-line="7" selection-start-column="118" selection-end-line="7" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/service/PublisherServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-publisher2/src/main/java/com/atguigu/dw/gmall/gmallpublisher2/controller/PublisherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-583">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2480#2481#0" expanded="true" />
-            <element signature="e#2548#2549#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw-chart/src/main/java/com/demo/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
